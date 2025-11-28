@@ -1,16 +1,40 @@
-# CodeAlpha_IrisFlowerClassification
-→Objective:
-Develop a machine learning model to classify Iris flowers into three species based on petal and sepal measurements.
+# Iris Flower Classification – ML Project
 
-→Key Highlights:
+This project builds a machine learning model to classify Iris flowers into Setosa, Versicolor, and Virginica using the classic Iris dataset.  
+It includes EDA, model training, comparison, cross-validation, and prediction.
 
-Performed detailed exploratory analysis using pairplots, violin plots, and correlation heatmaps
+## Features
+- Dataset upload through Google Colab  
+- Data cleaning & preprocessing  
+- Label encoding  
+- Visualizations:
+  - Histograms
+  - Pairplot
+  - Correlation heatmap
+  - Boxplots
+- Model comparison using:
+  - Logistic Regression
+  - KNN
+  - SVM (RBF)
+  - Random Forest
+- 5-fold cross-validation  
+- Best model selection  
+- Confusion matrix & classification report  
+- Saves final model and label encoder using joblib  
 
-Built classification models including KNN, SVM, and Random Forest
+## Technologies Used
+- Python  
+- Pandas, NumPy  
+- Scikit-Learn  
+- Seaborn, Matplotlib  
+- Joblib  
 
-Evaluated accuracy and visualized class boundaries for better interpretability
+## How to Run
+1. Open the notebook in Google Colab  
+2. Upload `iris.csv` when prompted  
+3. Run all cells  
+4. Use the prediction function to test new values  
 
-Delivered a clean and efficient workflow suitable for multi-class classification tasks
-
-→Outcome:
-A complete classification pipeline with strong visual understanding and model performance.
+## Output Files
+- `iris_best_model.joblib`
+- `iris_label_encoder.joblib`
